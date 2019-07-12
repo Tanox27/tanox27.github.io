@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');
+.center {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0.7vw 5vw;
+	border: 0.2vw solid white;
+	opacity: 0.65;
+	background-color: black;
+	z-index: 1;
+	text-align: center;
+
+}
+#x {
+  color: white;
+	font-family: 'Wallpoet', cursive;
+}
+
+#x:hover {
+	-moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+ -ms-filter: "FlipH";
+ filter: FlipH;
+}
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: black;
+	animation: fadein 2s;
+	background-image: url('bg.gif');
+ background-size: cover;
+   background-repeat:no-repeat;
+}
+
+a {
+  text-decoration: none;
+	transition: 1s;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+	transition: 1s;
+	color: yellow;
+}
+p {
+	color: red;
+}
